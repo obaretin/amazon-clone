@@ -471,6 +471,34 @@ nav > div:nth-child(1) > a:nth-child(2) > span{
     margin-bottom: 10px;
 }
 
+.first-product-div > div:last-child{
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: column;
+    padding:0 !important;
+    justify-content: space-between;
+}
+.first-product-div > div:last-child > div{
+    background-color: var(--white-color);
+    padding:20px;
+    padding-bottom: 23px;
+    display: flex;
+    flex-direction: column;
+    gap:17px;
+}
+.first-product-div > div:last-child > div > h1{
+    margin:0;
+    font-size: 22px;
+}
+.first-product-div > div:last-child > div > button{
+    padding:5px;
+    font-size: 14px;
+    border-radius: 7px;
+    border:none;
+    outline:none;
+    background-color:var(--btn-color)
+}
+
 
 
  
