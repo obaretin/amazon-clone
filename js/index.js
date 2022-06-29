@@ -2,8 +2,8 @@ const btnRight = document.querySelector('#btnRight');
 const btnLeft = document.querySelector('#btnLeft');
 const allImages = document.querySelectorAll('.banner-section > div:nth-child(1) > img');
 let initialVal = 0;
-btnRight.addEventListener('click',()=>{
 
+btnRight.addEventListener('click',()=>{
     initialVal = initialVal - 100;
     if(initialVal < -400){
         initialVal = 0;
